@@ -1,6 +1,6 @@
 # a naive Redis image
 
-FROM centos7
+FROM centos
 
 RUN yum -y install httpd; yum clean all; systemctl enable httpd.service
 
